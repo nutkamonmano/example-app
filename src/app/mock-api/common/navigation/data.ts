@@ -44,6 +44,20 @@ export const horizontalNavigation: FuseNavigationItem[] = [
         link: '/report',
     },
     {
+        id: 'person',
+        title: 'นักเรียน',
+        type: 'basic',
+        icon: 'heroicons_outline:document-chart-bar',
+        link: '/persons',
+    },
+    {
+        id: 'member',
+        title: 'สมาชิก',
+        type: 'basic',
+        icon: 'heroicons_outline:document-chart-bar',
+        link: '/members',
+    },
+    {
         id: 'settings',
         title: 'ตั้งค่า',
         type: 'aside',
